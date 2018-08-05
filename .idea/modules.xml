@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/wsparent.iml" filepath="$PROJECT_DIR$/wsparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-common/wx-common.iml" filepath="$PROJECT_DIR$/wx-common/wx-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-persistent/wx-persistent.iml" filepath="$PROJECT_DIR$/wx-persistent/wx-persistent.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-web/wx-web.iml" filepath="$PROJECT_DIR$/wx-web/wx-web.iml" />
     </modules>

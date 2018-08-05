@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/wx-persistent/pom.xml" />
         <option value="$PROJECT_DIR$/wx-web/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-common/pom.xml" />
       </list>
     </option>
   </component>
