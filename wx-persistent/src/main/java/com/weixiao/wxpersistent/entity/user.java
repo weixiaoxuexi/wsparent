@@ -1,4 +1,4 @@
-package com.weixiao.wxpersistent.Entity;
+package com.weixiao.wxpersistent.entity;
 
 public class user {
 }

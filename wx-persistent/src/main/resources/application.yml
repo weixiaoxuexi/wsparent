@@ -19,8 +19,8 @@ spring:
       test-on-borrow: false
       connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 mybatis-plus:
-  mapper-locations: classpath:/xml/*Mapper.xml
-  type-aliases-package: com.wexiao.wxpersistent.entity
+  mapper-locations: classpath:xml/*Mapper.xml
+  type-aliases-package: com.weixiao.wxpersistent.entity
   global-config:
   # 利用数据库自增
     id-type: 0

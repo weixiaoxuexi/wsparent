@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weixiao.wxpersistent.mapper.BaseUserMapper">
+
+    <!-- 开启二级缓存 -->
+    <!--<cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.weixiao.wxpersistent.entity.BaseUser">
+        <id column="base_user_id" property="baseUserId" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="wx_id" property="wxId" />
+        <result column="wx_name" property="wxName" />
+        <result column="wx_icon" property="wxIcon" />
+        <result column="created_time" property="createdTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        base_user_id, username, password, wx_id, wx_name, wx_icon, created_time, update_time
+    </sql>
+</mapper>

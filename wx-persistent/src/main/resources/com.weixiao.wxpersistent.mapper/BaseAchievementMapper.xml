@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weixiao.wxpersistent.mapper.BaseAchievementMapper">
+
+    <!-- 开启二级缓存 -->
+    <!--<cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.weixiao.wxpersistent.entity.BaseAchievement">
+        <id column="base_achievement_id" property="baseAchievementId" />
+        <result column="subject" property="subject" />
+        <result column="test_score" property="testScore" />
+        <result column="test_date" property="testDate" />
+        <result column="type" property="type" />
+        <result column="base_student_base_student_id" property="baseStudentBaseStudentId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        base_achievement_id, subject, test_score, test_date, type, base_student_base_student_id
+    </sql>
+
+</mapper>
